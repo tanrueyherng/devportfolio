@@ -1,0 +1,28 @@
+/* styles.css */
+.project {
+    display: flex;
+    flex-direction: row; /* Arrange children in a row */
+    margin-bottom: 20px; /* Optional: Add margin for spacing between projects */
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure content takes full width */
+}
+
+.project-image {
+    flex: 1; /* Take up 50% width */
+    padding: 0 20px; /* Optional: Add padding for spacing */
+}
+
+.project-info {
+    flex: 1; /* Take up 50% width */
+    padding: 0 20px; /* Optional: Add padding for spacing */
+}
+
+.project-image img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
